@@ -1,16 +1,17 @@
 html {
   background: #d6e1f0;
   font-family: "Outfit", sans-serif;
-  width: 375px;
+  max-width: 356px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 8px 0px 8px 0px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -23,6 +24,8 @@ html {
   background-size: auto;
   align-content: center;
   padding: 14px;
+  min-width: 320px;
+  max-width: 356px;
 }
 .container img {
   width: 99%;
